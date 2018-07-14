@@ -11,3 +11,9 @@ extern "C" Boolean MGGetBoolAnswer(CFStringRef);
 		return YES;
 	return %orig;
 }
+
+%ctor {
+	if ([NSBundle.mainBundle.bundleIdentifier isEqualToString:@"com.apple.MediaPlayer.RemotePlayerService"])
+		return;
+	%init;
+}
