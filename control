@@ -1,7 +1,7 @@
 Package: com.ps.forceinpicture
 Name: ForceInPicture
 Depends: mobilesubstrate, firmware (>= 9.0)
-Version: 1.0
+Version: 1.0.0
 Architecture: iphoneos-arm
 Description: "Programmatically" enable picture in picture feature.
 Maintainer: PoomSmart
