@@ -1,4 +1,4 @@
-#import "../PSHeader/Misc.h"
+#import <PSHeader/Misc.h>
 #import <substrate.h>
 #import <CoreFoundation/CoreFoundation.h>
 
